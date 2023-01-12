@@ -1,0 +1,37 @@
+footer {
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+footer img {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+footer p {
+    color: white;
+    font-family: 'Karla';
+    font-weight: normal;
+    font-size: 2vh;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer p {
+        font-size: 1vh;
+    }
+}

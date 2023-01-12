@@ -1,0 +1,23 @@
+#confirmation {
+    background-color: #495E57;
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 100%;
+    height: 80vh;
+    margin-top: -42.5px;;
+}
+
+#confirmation h1 {
+    font-family: 'Markazi Text';
+    font-size: 7vh;
+    font-weight: medium;
+    color: #F4CE14;
+    padding-top: 10%;
+}
+
+#confirmation p {
+    font-family: 'Karla';
+    font-size: 2vh;
+    font-weight: normal;
+    color: white;
+}

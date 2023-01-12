@@ -1,0 +1,82 @@
+#special {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background-color: #EDEFEE;
+    width: 30%;
+}
+
+#special .image-container {
+    display: block;
+}
+
+#special #dish-image {
+    max-height: 100%;
+    max-width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: auto;
+    height:250px;
+    object-fit: cover;
+}
+
+#special .description {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#special .dish-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#special .price {
+    color: #FBDABB;
+}
+
+#special h3 {
+    color: black;
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+#special p {
+    color: black;
+    font-family: 'Karla';
+    font-weight: medium;
+    font-size: 2vh;
+}
+
+#special #delivery {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: 2vh;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    #special {
+        margin-top: 10%;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        row-gap: 10%;
+        border-radius: 16px;
+    }
+
+    #special .image-container {
+        display: none;
+    }
+
+}
+
+
+
+
+
+

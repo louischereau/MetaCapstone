@@ -1,0 +1,17 @@
+#bookingpage {
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #495E57;
+    padding-bottom: 1%;
+    width: 100%;
+    margin-top:-42.5px;
+    height: 80vh;
+}
+
+#bookingpage h1 {
+    padding-top: 10%;
+    font-family: 'Makazi Text';
+    font-size: 7vh;
+    font-weight: medium;
+    color: #F4CE14;
+}
